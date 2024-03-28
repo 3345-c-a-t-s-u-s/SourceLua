@@ -136,7 +136,7 @@ New.BorderSizePixel = 0
 New.Size = UDim2.new(0.444000006, 0, 0.423999995, 0)
 New.ZIndex = 5
 New.Font = Enum.Font.RobotoMono
-New.Text = "New Version"
+New.Text = "New Version (Fix)"
 New.TextColor3 = Color3.fromRGB(255, 255, 255)
 New.TextScaled = true
 New.TextSize = 14.000
@@ -207,7 +207,7 @@ end
 New.MouseButton1Click:Connect(function()
 	starteffect()
 	pcall(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/KPV2.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/New-C4-Remote.lua/main/KaijuParadise.cs"))()
 	end)
 end)
 
